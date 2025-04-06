@@ -1,6 +1,6 @@
 # 🐲 Dashboard D&D - Monstros em Dados!
 
-Oi Professor!!! Seja bem-vindo(a) ao nosso **Dashboard D&D**!  
+Oi Professor!!! Esse é o projeto do Lucca Nobre e do Jorge Loabto, Seja bem-vindo(a) ao nosso **Dashboard D&D**!  
 Um projeto de visualização interativa baseado no icônico **Livro dos Monstros de Dungeons & Dragons**. 📚⚔️
 
 Aqui, você poderá tirar suas dúvidas sobre as infromações dos monstros do RPG, tanto para aumentar seu conhecimento de jogado, como para ajudar na criação de uma campanha!!! 🔍📊
