@@ -118,6 +118,24 @@ def dash_board(df):
 
         st.plotly_chart(fig2)
 
+    res4 = st.text_input('Monstros com XP maior que','300')
+    res5 = st.text_input('e menor que','800')
+
+    if res4 == '' or res5 == '' or res4 > res5 or res5 < res4:
+        st.text('Valores inválidos')
+    else:
+        valores = df[(df["XP"] >= int(res4)) & (df["XP"] <= int(res5))]
+
+        fig3 = px.bar(valores,x="Nome", y= "XP")
+        fig3.update_traces(marker=dict(color="yellow"))
+        fig3.update_layout(
+                xaxis_title=f"XP",
+                yaxis_title=f"Nomes"
+            )
+
+        st.plotly_chart(fig3)
+
+
 
 def main():
     df = importar_data_set()
